@@ -1,0 +1,11 @@
+:root{
+    --viole_doux:#6c63FF;
+    --viole_fonce:#534EDD;
+    --orange-vif:#FFA726;
+    --gris_fonce:#666;
+    --gris_trés_clair:#F8F8F8;
+    --gris_clair:#EEE;
+}
+h1{
+    color:var(--gris_fonce);
+}
