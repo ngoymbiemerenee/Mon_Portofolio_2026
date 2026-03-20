@@ -37,3 +37,41 @@ header div a{
     font-weight: bold;
     color: var(--viole_doux);
 }
+ul li {
+    list-style: none;
+    margin-left: 15px;
+}
+ul{
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color:var(--gris_fonce);
+    font-weight: 60px; 
+    font-size: 1.1rem; 
+    position: relative;
+    padding: 10px 0;
+}
+ul li a:hover{
+    color:var(--viole_doux);
+}
+ul li a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    font-weight: bold;
+    background-color: var(--viole_doux);
+    transition: width O.3s ease;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+a.active{
+    color:var(--viole_doux);
+ }
+ a.active::after{
+    width: 100%;
+ }
