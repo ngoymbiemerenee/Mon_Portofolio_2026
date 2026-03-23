@@ -75,3 +75,47 @@ a.active{
  a.active::after{
     width: 100%;
  }
+ .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+    margin-top: 10rem 2rem;
+ } 
+ .hero img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid var(--viole_doux);
+ }
+ .hero h1{
+    color: var(--viole_doux);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+ }
+ .hero p{
+    color: var(--gris_fonce);
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+ }
+ .hero a{ 
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--viole_doux);
+    color: white;
+    padding: 15px 30px ;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease,transform 0.2s ease;
+ }
+ .hero a:hover{
+    background-color: var(--gris_fonce);
+    transform: translatey(-3px);
+
+ }
